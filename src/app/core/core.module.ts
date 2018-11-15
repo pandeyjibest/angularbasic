@@ -1,20 +1,18 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
 import {RouterModule} from '@angular/router';
-
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
   ],
   imports: [
-    BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    RouterModule
+    RouterModule,
+    CommonModule
   ],
   exports: [
-    BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule
   ]

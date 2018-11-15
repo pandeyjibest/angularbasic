@@ -6,7 +6,7 @@ import {AppConfig} from './config/app.config';
 
 const routes: Routes = [
   {path: '', component: HomePageComponent, pathMatch: 'full'},
-  {path: AppConfig.routes.bio, loadChildren: './modules/bio/bio.module#BioModule'},
+  {path: AppConfig.routes.profile, loadChildren: './modules/bio/bio.module#BioModule'},
   {path: AppConfig.routes.error404, component: Error404PageComponent},
 
   // otherwise redirect to 404

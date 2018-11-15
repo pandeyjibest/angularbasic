@@ -1,6 +1,6 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import {MaterialModule} from './modules/material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
 // import { WebStorageModule } from 'ngx-store';
 import { HeaderComponent } from './components/header/header.component';
@@ -18,14 +18,18 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
   ],
   imports: [
     CommonModule,
-    BrowserModule,
     MaterialModule,
+    FlexLayoutModule,
     // WebStorageModule,
     RouterModule
   ],
   exports:[
     CommonModule,
     MaterialModule,
+    FlexLayoutModule,
+    HeaderComponent,
+    FooterComponent,
+    RouterModule
     // WebStorageModule
   ]
 })

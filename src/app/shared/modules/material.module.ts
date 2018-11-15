@@ -12,7 +12,9 @@ import {
     MatProgressSpinnerModule,
     MatSliderModule,
     MatSnackBarModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatToolbarModule,
+    MatSidenavModule,
   } from '@angular/material';
   import {NgModule} from '@angular/core';
   
@@ -31,7 +33,9 @@ import {
       MatProgressSpinnerModule,
       MatTooltipModule,
       MatListModule,
-      MatDialogModule
+      MatDialogModule,
+      MatToolbarModule,
+      MatSidenavModule
     ],
     exports: [
       MatButtonModule,
@@ -47,7 +51,9 @@ import {
       MatProgressSpinnerModule,
       MatTooltipModule,
       MatListModule,
-      MatDialogModule
+      MatDialogModule,
+      MatToolbarModule,
+      MatSidenavModule
     ],
   })
   
